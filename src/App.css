@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Sniglet&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sniglet", cursive;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background-color: #31363e;
+  color: aliceblue;
+}
+
+.gradient-heading {
+  height: auto;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #a2facf 0%, #64acff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 56px;
+}
+
+.room {
+  width: 30vw;
+  height: 30vh;
+  background-color: #3d4249;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 2vw;
+  justify-content: space-around;
+  border-radius: 8px;
+  border: 2px solid #64acff;
+}
+.room label {
+  text-align: center;
+}
+
+.room input {
+  background-color: #252933;
+  outline: none;
+  border: none;
+  height: 8vh;
+  font-size: 16px;
+  border-radius: 4px;
+  color: white;
+  padding-left: 1vw;
+}
+.room button {
+  color: white;
+  border: none;
+  height: 6vh;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #4da0ff;
+}
+
+@media (max-width: 768px) {
+  .room {
+    width: 80vw;
+    height: auto;
+    max-height: 80vh;
+    padding: 2vh 5vw;
+  }
+
+  .room input {
+    height: 6vh;
+    margin: 2vh 0;
+    padding-left: 8px;
+  }
+
+  .room button {
+    height: 5vh;
+    margin: 2vh 0;
+  }
+}

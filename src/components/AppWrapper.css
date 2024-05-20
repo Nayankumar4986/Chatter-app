@@ -1,0 +1,52 @@
+.app-wrapper {
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 2vw;
+}
+.app-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4vh;
+  padding: 1vh 2vw;
+}
+
+.app-header h1 {
+  font-size: 36px;
+}
+
+.sign-out {
+  background-color: linear-gradient(to right, #a2facf 0%, #64acff 100%);
+}
+
+.sign-out button {
+  margin-right: 2vw;
+  width: 10vw;
+  height: 6vh;
+  background-color: #252933;
+
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.5s ease-in-out;
+}
+.sign-out button:hover {
+  background-color: rgb(255, 79, 79);
+}
+
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 24px;
+  }
+
+  .sign-out button {
+    width: 20vw;
+    height: 5vh;
+  }
+}
