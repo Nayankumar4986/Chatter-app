@@ -14,5 +14,5 @@ Here is an example image:
 ![Example Image](https://github.com/Nayankumar4986/Mausam-Zen-web/blob/main/5.png)
 ![Example Image](https://github.com/Nayankumar4986/Mausam-Zen-web/blob/main/6.png)
 
-## APP LINK -> [ https://664ba0867c57ca0d5aac9560--stellular-cactus-00de69.netlify.app/)
+## APP LINK -> [ https://664bac1ba4f26b1406bcf454--inspiring-faun-2f537e.netlify.app/)
 Thank you for visiting my project!
